@@ -20,7 +20,7 @@
 
 html,
 body {
-  @apply bg-white;
+  @apply bg-white ;
 }
 
 main {
@@ -68,6 +68,11 @@ form {
       @apply flex flex-row gap-2 items-center bg-gray-50 rounded-2xl p-4 w-full justify-between;
     }
   }
+  .h-fit{
+    
+    @apply h-fit;
+  } 
+
   .back-button {
     @apply flex flex-row items-center gap-2 border border-gray-200 rounded-lg p-2 shadow-sm;
   }
